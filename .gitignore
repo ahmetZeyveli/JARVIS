@@ -1,0 +1,23 @@
+# Sanal Ortam
+.venv/
+venv/
+env/
+
+# Çevre Değişkenleri ve Gizli Anahtarlar (Kesinlikle gitmemeli)
+.env
+
+# Python Önbellekleri
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ses ve Yapay Zekâ Modelleri (Boyutları çok yüksek olduğu için)
+modeller/
+*.tar.gz
+*.zip
+
+# Editör ve İşletim Sistemi Kalıntıları
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
