@@ -1,0 +1,5 @@
+JARVIS test successful!
+
+test_note.txt oluşturma komutu: 
+
+.venv\Scripts\python.exe -c "from jarvis.tools import execute_tool; print(execute_tool('write_note', {'note_name': 'test_note.txt', 'content': 'JARVIS test successful!'}))"

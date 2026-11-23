@@ -168,7 +168,7 @@ ikinci bir vision servisine gerek kalmadı; tek API anahtarı yeterli.
 > **Kaynak:** Düşünme modu — https://api-docs.deepseek.com/guides/thinking_mode
 
 **⚠️ Dikkat:** Tool calling döngüsü yanlış kurulursa model sonsuz döngüye girer.
-Maksimum tur sayısı (`maks_tur=6`) konulmalıdır.
+Maksimum tur sayısı (`maks_tur=3`) konulmalıdır.
 
 ---
 
@@ -178,12 +178,11 @@ Maksimum tur sayısı (`maks_tur=6`) konulmalıdır.
 
 | Görev | Durum |
 |---|---|
-| Vosk Türkçe modelinin kurulması | ⬜ |
+| Faster-Whisper modelinin kurulması | ⬜ |
 | `ses.py` — `Dinleyici` sınıfı | ⬜ |
 | Mikrofon akışı (sounddevice) | ⬜ |
 | Uyandırma kelimesi tespiti | ⬜ |
 | Gürültü eşiği ayarı | ⬜ |
-| Google STT yedek motoru | ⬜ |
 
 **Çıktı:** Mikrofonla Türkçe komut alıp metne çeviren modül
 
